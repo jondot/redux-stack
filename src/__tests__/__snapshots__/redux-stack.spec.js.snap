@@ -1,0 +1,68 @@
+exports[`buildStack with additive stack 1`] = `
+Object {
+  "enhancer": [Function],
+  "meta": Array [
+    Object {
+      "enhancers": Array [
+        [Function],
+      ],
+      "reducers": Object {
+        "users": [Function],
+      },
+    },
+    Object {
+      "reducers": Object {
+        "posts": [Function],
+      },
+    },
+    Object {
+      "enhancers": Array [
+        [Function],
+      ],
+    },
+    Object {
+      "composers": Array [
+        [Function],
+      ],
+    },
+  ],
+  "reducers": Object {
+    "posts": [Function],
+    "users": [Function],
+  },
+}
+`;
+
+exports[`buildStack with empty user stack 1`] = `
+Object {
+  "enhancer": [Function],
+  "meta": Array [],
+  "reducers": Object {},
+}
+`;
+
+exports[`buildStack with staggered stack 1`] = `
+Object {
+  "enhancer": [Function],
+  "meta": Array [
+    Object {
+      "reducers": Object {
+        "users": [Function],
+      },
+    },
+    Object {
+      "enhancers": Array [
+        [Function],
+      ],
+    },
+    Object {
+      "composers": Array [
+        [Function],
+      ],
+    },
+  ],
+  "reducers": Object {
+    "users": [Function],
+  },
+}
+`;

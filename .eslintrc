@@ -1,0 +1,17 @@
+{
+  "extends":  [
+  "standard",
+  "standard-flow",
+  "standard-jsx"
+  ],
+  "rules":{
+    "space-before-blocks": [2, "never"],
+    "space-before-function-paren": [2, "never"],
+    "space-infix-ops": 2,
+    "comma-dangle":0,
+    "generator-star-spacing":0
+  },
+  "env":{
+    "jest": true
+  }
+}
