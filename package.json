@@ -8,7 +8,7 @@
     "build:umd:min": "NODE_ENV=production webpack src/redux-stack.js dist/redux-stack.min.js",
     "build:umd": "NODE_ENV=development webpack src/redux-stack.js dist/redux-stack.js",
     "build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
-    "release":"npm run build && npm publish"
+    "release":"npm run build && npm publish",
     "test":"jest"
   },
   "dependencies": {
