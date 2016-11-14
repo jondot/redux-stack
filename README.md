@@ -2,6 +2,14 @@
 [![npm](https://img.shields.io/npm/v/redux-stack.svg?maxAge=2592000?style=plastic)]()
 [![Build Status](https://travis-ci.org/jondot/redux-stack.svg?branch=master)](https://travis-ci.org/jondot/redux-stack)
 
+<h3 align="center">
+  <img src="media/redux-stack-xp.png" alt="Redux Stack" width="215px"/>
+  <br/>
+  <br/>
+</h3>
+<br/>
+<br/>
+
 Redux Stack is a library that helps you build modular, structured, and cleaner redux apps.
 
 As the Redux ecosystem grows, libraries integrate by
